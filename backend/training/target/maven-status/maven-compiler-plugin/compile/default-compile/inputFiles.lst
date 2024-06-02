@@ -1,1 +1,4 @@
 /home/diniz/Workspaces/ws-training-docker/backend/training/src/main/java/com/diniz/TrainingApplication.java
+/home/diniz/Workspaces/ws-training-docker/backend/training/src/main/java/com/diniz/api/controller/EntitieController.java
+/home/diniz/Workspaces/ws-training-docker/backend/training/src/main/java/com/diniz/domain/model/Entitie.java
+/home/diniz/Workspaces/ws-training-docker/backend/training/src/main/java/com/diniz/domain/repository/EntitieRepository.java

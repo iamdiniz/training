@@ -1,1 +1,4 @@
+com/diniz/domain/model/Entitie.class
+com/diniz/api/controller/EntitieController.class
 com/diniz/TrainingApplication.class
+com/diniz/domain/repository/EntitieRepository.class
