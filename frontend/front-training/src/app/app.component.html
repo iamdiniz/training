@@ -1,0 +1,21 @@
+<router-outlet></router-outlet>
+<form [formGroup]="form">
+  <mat-form-field>
+    <input matInput placeholder="Nome" formControlName="name">
+  </mat-form-field>
+  <mat-card-actions align="end">
+    <button mat-button (click)="clicandoEmSalvar()">Salvar</button>
+  </mat-card-actions>
+</form>
+<table mat-table [dataSource]="entities" class="mat-elevation-z8">
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Nome </th>
+    <td mat-cell *matCellDef="let entities"> {{ entities.name }} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
