@@ -13,7 +13,7 @@ import com.diniz.domain.model.Entitie;
 import com.diniz.domain.repository.EntitieRepository;
 
 @RestController
-@RequestMapping(value = "/entities")
+@RequestMapping(value = "api/entities")
 public class EntitieController {
 
     @Autowired

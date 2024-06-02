@@ -8,7 +8,7 @@ import { delay, first, tap } from 'rxjs';
 })
 export class EntitiesService {
 
-  private readonly API = 'api/training';
+  private readonly API = 'api/entities';
 
   constructor(private httpClient: HttpClient) { }
 
